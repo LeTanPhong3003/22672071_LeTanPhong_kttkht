@@ -1,0 +1,13 @@
+const PAYMENT_METHODS = {
+  COD: 'COD',  // Cash on Delivery
+  BANKING: 'BANKING'
+};
+
+const PAYMENT_STATUS = {
+  PENDING: 'PENDING',
+  SUCCESS: 'SUCCESS',
+  FAILED: 'FAILED',
+  CANCELLED: 'CANCELLED'
+};
+
+module.exports = { PAYMENT_METHODS, PAYMENT_STATUS };
